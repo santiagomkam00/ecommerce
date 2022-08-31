@@ -1,5 +1,6 @@
 import logo from '../../logo.svg'
 import './styles.css'
+import CartWidget from '../CartWidget/CartWidget.js'
 const NavBar = () => {
     return (
         <div className='navbar-container'>
@@ -14,7 +15,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div>
-                <button>Log in</button>
+                <CartWidget/>
             </div>
         </div>
     )

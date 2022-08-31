@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
+      <NavBar/>
+      <ItemListContainer greeting='Buenos días, buenas tardes, buenas noches. Enviado por una prop'/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
